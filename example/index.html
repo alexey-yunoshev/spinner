@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>Spinner example</title>
+</head>
+<script type="module">
+    import {registerSpinnerComponent} from "./node_modules/@ayunoshev/spinner/dist/index.js";
+
+    registerSpinnerComponent();
+    registerSpinnerComponent('my-custom-name-spinner');
+</script>
+<body style="display: grid; grid-template-rows: repeat(10, auto); grid-gap: 10px">
+<app-spinner></app-spinner>
+<my-custom-name-spinner></my-custom-name-spinner>
+<app-spinner size="100px"></app-spinner>
+<app-spinner speed="3"></app-spinner>
+<app-spinner stroke-width="10px"></app-spinner>
+<app-spinner outer-color="red" inner-color="black"></app-spinner>
+</body>
+</html>
