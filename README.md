@@ -1,4 +1,3 @@
-
 # A double line spinner
 
 ![Spinner demo](demo/demo.gif)
