@@ -9,6 +9,11 @@ Style with CSS properties:
 * **--outer-spinner-color** the color of the outer circle. Default is #3be8b0;
 * **--inner-spinner-color** the color of the inner circle. Default is #1aafd0;
 
+### Install
+```
+npm install @ayunoshev/spinner
+```
+
 ### Examples
 
 #### With ES modules
